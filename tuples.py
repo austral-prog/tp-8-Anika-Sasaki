@@ -14,4 +14,4 @@ def create_record(azara_record, rui_record):
         new_coordinate = azara_record + rui_record
         return new_coordinate
     else:
-        return "no coincide"
+        return "not a match"
